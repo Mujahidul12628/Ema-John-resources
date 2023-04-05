@@ -12,7 +12,6 @@ const Header = () => {
                 <a href="/inventory">Inventory</a>
                 <a href="/login">Login</a>
             </div>
-
         </nav>
     );
 };
