@@ -1,5 +1,6 @@
 .cart {
-    margin-top: 8vh;
+    margin: 8vh 2vh 8vh 0vh;
+    height: 100vh;
     background-color: rgba(255, 153, 0, 0.3);
     padding: 23px;
     position: sticky;
