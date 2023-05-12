@@ -5,8 +5,10 @@ import Product from '../Product/Product';
 import ReviewItem from '../ReviewItem/ReviewItem';
 import './Order.css'
 import { removeFromDb } from '../../utilities/fakedb';
+import DynamicTittle from '../Hook/DynamicTitle';
 
 const Orders = () => {
+    DynamicTittle("Order");
 
     const savedCart = useLoaderData();
     const [cart, setCart] = useState(savedCart);

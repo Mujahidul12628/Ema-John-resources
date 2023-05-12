@@ -3,8 +3,11 @@ import './Shop.css'
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 import { addToDb, getShoppingCart } from '../../utilities/fakedb';
+import DynamicTittle from '../Hook/DynamicTitle';
 
 const Shop = () => {
+
+    DynamicTittle("Shop")
 
     const [cart, setCart] = useState([])
 

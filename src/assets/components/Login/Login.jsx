@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import './Login.css'
+import DynamicTittle from '../Hook/DynamicTitle';
 
 const Login = () => {
+    DynamicTittle('Login')
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
