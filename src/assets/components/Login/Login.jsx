@@ -30,7 +30,15 @@ const Login = () => {
             <label>
                 <input type="password" value={password} onChange={handlePasswordChange} placeholder='Password' />
             </label>
-            <button type="submit">Log In</button>
+            <button className='LogIn' type="submit">Log In</button>
+            <div className='or_login'>
+                <div className='Or_login_with'>
+                    Or login with
+                </div>
+                <button className='google' type="submit">Google</button>
+                <button className='facebook' type="submit">Facebook</button>
+
+            </div>
         </form>
     );
 };

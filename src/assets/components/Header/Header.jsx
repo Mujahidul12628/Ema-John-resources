@@ -6,7 +6,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <nav className='header-content'>
-            <div><h2>Green Shoping</h2> </div>
+            <div>
+                <h2>Green Shoping</h2>
+            </div>
+
             <div className="ancor">
                 <Link to="/">Shop</Link>
                 <Link to="/orders">Order</Link>

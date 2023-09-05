@@ -35,16 +35,18 @@ img {
 
 .btn-cart {
     width: 100%;
-    background-color: #FFE0B3;
+    background-color: rgb(2, 189, 130);
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
+    color: white;
 }
 
 .btn-cart:hover {
-    background-color: orange;
-    border: none;
+    background-color: rgb(216, 241, 233);
+    border: 2px solid rgb(2, 189, 130);
+    color: rgb(2, 189, 130);
 }
 
 /* Mobile styles */
