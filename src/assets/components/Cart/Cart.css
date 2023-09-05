@@ -6,10 +6,11 @@
     padding: 23px;
     position: sticky;
     top: 0;
-    border: 1px solid #95A0A7;
+    border: 2px solid rgb(0, 252, 96, 0.7);
     color: white;
     border-radius: 8px;
     padding: 7px 7px;
+
 }
 
 .cart h3 {
