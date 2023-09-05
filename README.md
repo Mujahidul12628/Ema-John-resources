@@ -32,7 +32,6 @@ Green Shopping is built using the following technologies:
 
 ## Live Site
 
-Access the live site for RecipesHub at [https://chef-recipes-hub.firebaseapp.com/](https://chef-recipes-hub.firebaseapp.com/).
-
+Access the live site for Green Shopping at [https://64f732129439d70767ad6e5f--heartfelt-queijadas-6a41f4.netlify.app/]
 
 
